@@ -1,0 +1,25 @@
+{
+  "name": "gleaner-cx",
+  "version": "0.1.0",
+  "scripts": {
+    "prebuild": "node ./scripts/prebuild",
+    "start": "yarn run prebuild && webpack-dev-server --config webpack/dev.babel.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "html-webpack-plugin": "^2.29.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "shelljs": "^0.7.8",
+    "standard": "^10.0.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1",
+    "write-file-webpack-plugin": "^4.1.0"
+  }
+}
